@@ -17,4 +17,14 @@ public class MainTest {
 
     }
 
+    @Test
+    public void isPrimeFalse() {
+
+        //Check that method returns false when number is not a prime
+
+        assertFalse("Number is a prime number",Main.isPrime(5687));
+        assertFalse("Number is a prime number",Main.isPrime(2523));
+        assertFalse("Number is a prime number",Main.isPrime(3641));
+    }
+
 }
