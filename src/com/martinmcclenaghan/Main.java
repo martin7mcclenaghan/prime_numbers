@@ -4,19 +4,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Method below prints prime numbers within a given range.
-        // Utilises method isPrime () also below for which two test classes have been included.
+        // Method primePrinter() below prints prime numbers within a given range.
+        // Uses simple method isPrime () to determine if given number is prime number.
+        // Two test classes have been included for isPrime() as this is the key method.
         // Prime numbers are only divisible by themselves and 1 and are integers greater than 0.
 
+        primePrinter(10,50);
 
         System.out.println(isPrime(5));
         System.out.println(isPrime(9));
         System.out.println(isPrime(25));
         System.out.println(isPrime(169));
-
-        primePrinter(10,50);
-
-
 
 
     }

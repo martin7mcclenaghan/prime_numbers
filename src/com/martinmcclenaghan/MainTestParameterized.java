@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 public class MainTestParameterized {
 
     // Will use assertEquals as if continue to use style of assert true / false will need to write
-    // two parameterized test classes and this seems like needless duplication
+    // two parameterized test classes which is needless duplication
 
     // set up member variables for parameterized test class
     private int number;
