@@ -10,11 +10,12 @@ public class Main {
         // Prime numbers are only divisible by themselves and 1 and are integers greater than 0.
 
         primePrinter(10,50);
+        primePrinter(15,71);
+        primePrinter(150,745);
 
         System.out.println(isPrime(5));
         System.out.println(isPrime(9));
         System.out.println(isPrime(25));
-        System.out.println(isPrime(169));
 
 
     }
